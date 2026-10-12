@@ -39,6 +39,16 @@ GachaWiki publishes character guides, tier lists, banner timelines, update histo
 
 The site is built with [Astro](https://astro.build), Svelte, TypeScript, and [Bun](https://bun.sh). Game data comes from a family of custom per-game extractors built on UnityPy and IL2CPP tooling, one per game, that decode each client's data tables, localization, and art.
 
+## Repositories
+
+| Repository | What it is |
+| :--- | :--- |
+| [gacha-wiki](https://github.com/GachaWiki/gacha-wiki) | The wiki site itself (this is the main repository) |
+| [gacha-wiki-bot](https://github.com/GachaWiki/gacha-wiki-bot) | Discord bot: wiki update feed via GitHub webhooks |
+| [zone-nova-extractor](https://github.com/GachaWiki/zone-nova-extractor) | Zone Nova master data extractor: AES decryptor and MasterMemory table dumper |
+| [zn-toolkit](https://github.com/GachaWiki/zn-toolkit) | Zone Nova wiki build toolkit: desktop app that runs the data regen scripts against decrypted tables |
+| [gachamusic](https://github.com/GachaWiki/gachamusic) | Gacha game OST player styled after GachaWiki (Rust + egui, plus a Win7-friendly classic edition and VLC scripts) |
+
 ## Contributing
 
 Found a data error or a broken page? Open an issue on [GachaWiki/gacha-wiki](https://github.com/GachaWiki/gacha-wiki/issues). Pull requests are welcome.

@@ -45,8 +45,19 @@ The site is built with [Astro](https://astro.build), Svelte, TypeScript, and [Bu
 | :--- | :--- |
 | [gacha-wiki](https://github.com/GachaWiki/gacha-wiki) | The wiki site itself (this is the main repository) |
 | [gacha-wiki-bot](https://github.com/GachaWiki/gacha-wiki-bot) | Discord bot: wiki update feed via GitHub webhooks |
-| [zone-nova-extractor](https://github.com/GachaWiki/zone-nova-extractor) | Zone Nova master data extractor: AES decryptor and MasterMemory table dumper |
 | [zn-toolkit](https://github.com/GachaWiki/zn-toolkit) | Zone Nova wiki build toolkit: desktop app that runs the data regen scripts against decrypted tables |
+| [zone-nova-extractor](https://github.com/GachaWiki/zone-nova-extractor) | Zone Nova master data extractor: AES decryptor and MasterMemory table dumper |
+
+### Desktop apps ([gachawiki.info/apps](https://gachawiki.info/apps/))
+
+| Repository | What it is |
+| :--- | :--- |
+| [gachawiki-play-helper](https://github.com/GachaWiki/gachawiki-play-helper) | Browser extension plus one-click Japan VPN script for playing Japan-only DMM browser games from anywhere |
+| [sab-extractor](https://github.com/GachaWiki/sab-extractor) | Silver and Blood data extractor: stats, skills, images, and stories |
+| [busty-burst-extractor](https://github.com/GachaWiki/busty-burst-extractor) | Busty Burst Fantasy extractor: pulls game files from BlueStacks and extracts images, data, and UnityCache assets |
+| [starsavior-extractor](https://github.com/GachaWiki/starsavior-extractor) | Star Savior extractor: decrypts Unity bundles, extracts data tables, textures, and sprites |
+| [voice_type_rust](https://github.com/GachaWiki/voice_type_rust) | Voice Type: speech to text |
+| [youtube-mp3-downloader](https://github.com/GachaWiki/youtube-mp3-downloader) | Video Downloader: save videos and audio from YouTube, X, TikTok, and 1000+ more sites |
 | [gachamusic](https://github.com/GachaWiki/gachamusic) | Gacha game OST player styled after GachaWiki (Rust + egui, plus a Win7-friendly classic edition and VLC scripts) |
 
 ## Contributing

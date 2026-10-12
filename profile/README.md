@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://gachawiki.info/android-chrome-512x512.png" width="112" alt="GachaWiki logo" />
+<img src="logo.png" width="360" alt="GachaWiki logo: GW monogram with gachawiki.info" />
 
 # GachaWiki
 
